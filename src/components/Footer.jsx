@@ -3,11 +3,12 @@ import logo from '../assets/logo.png';
 import twittericon from "../assets/twitterlogo.png";
 import instagramicon from "../assets/instagramlogo.png";
 import facebookicon from "../assets/facebooklogo.png";
+import { MdOutlineCopyright } from "react-icons/md"
 
 const Footer = () => {
     return (
         <div className="mt-10 h-[400px] bg-[#13131E]">
-            <div className="w-[95%] ml-[2.5%] mr-[2.5%] mt-5 pt-[70px] grid grid-cols-5 text-[#FFFFFF]">
+            <div className="w-[90%] ml-[5%] mr-[5%] mt-5 pt-[70px] grid grid-cols-5 text-[#FFFFFF]">
                 <div className="flex flex-col w-[80px] items-center">
                     {/* logo */}
                     <div className="h-[50px] w-[45px] ml-4">
@@ -71,7 +72,14 @@ const Footer = () => {
 
             <hr className="text-[#FFFFFF] h-2 mt-5"/>
 
-            <p className="text-[#FFFFFF] font-medium text-sm text-center pt-3">2021 Afroluxe. All rights reserved.</p>
+            <div className="flex flex-row justify-center">
+                <span className="text-[#FFFFFF] mt-[14px]"><MdOutlineCopyright/></span>
+                <p className="text-[#FFFFFF] font-medium text-sm text-center pt-3">
+                    2021 Afroluxe. All rights reserved.
+                </p>
+            </div>
+
+            
         </div>
     )
 }

@@ -19,7 +19,7 @@ const Header = () => {
 
             {/* sign up and login buttons */}
             <div className="mt-3 text-xs rounded font-medium">
-                <button className="h-[35px] mr-3 w-[100px] bg-[#13181E] text-white">
+                <button className="h-[35px] mr-3 w-[100px] bg-[#13181E] text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Sign Up
                 </button>
                 <button className="h-[35px] w-[100px] bg-[#FFFFFF] text-[#13181E] border-[#13181E]">

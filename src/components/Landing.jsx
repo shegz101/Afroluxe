@@ -203,7 +203,7 @@ const Landing = () => {
                             </p>
                         </div>
                         <div className="text-[#3A3A3A] mt-8 items-center text-center text-[16px] font-medium">
-                            <p>-- Iman</p>
+                            <p>- Iman</p>
                         </div>
                     </div>
 
@@ -219,7 +219,7 @@ const Landing = () => {
                             </p>
                         </div>
                         <div className="text-[#3A3A3A] mt-8 items-center text-center text-[16px] font-medium">
-                            <p>-- Jane</p>
+                            <p>- Jane</p>
                         </div>
                     </div>
                 </div>
